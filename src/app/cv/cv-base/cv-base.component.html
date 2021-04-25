@@ -1,0 +1,167 @@
+<div class="row mt-2 ms-1 justify-content-md-start row-col-2">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+  
+      <div class="card text-dark bg-light mb-3">
+          <div class="card-body">
+              <h4 class="color"><strong>CARLOS GONZÁLEZ-MOHINO</strong></h4>
+              <h5 class=""><pre>{{nombre | uppercase}}</pre></h5>
+          </div>
+      </div>
+  
+      <div class="card text-dark bg-light mb-3">
+        <div class="card-body">
+          <img src="./assets/foto-perfil.png" class="card-img" alt="Foto Perfil">              
+        </div>
+      </div> 
+  
+      <div class="card text-dark bg-light mb-3">
+        <div class="card-body">
+            <p class="text-center"><strong>Soy un informático todoterreno que trabaja tanto la programación, el montaje de ordenadores, la venta y la atención al cliente como la formación de las personas.</strong></p>
+        </div>
+      </div>
+      
+      <div class="card text-dark bg-light mb-3">
+        <div class="card-header"><b>FORMACIÓN REGLADA</b>
+          <img src="./assets/diploma.png" class="card-img float-end" alt="Diploma" style="max-width: 40px;">
+        </div>
+        <div class="card-body">
+              <h5 class="card-title"><small>Ciclo Superior Desarrollo Aplicaciones Informáticas</small></h5>
+              <p class="card-text">IES Maestre de Calatrava, Ciudad Real (2008-2009)</p>
+              <p class="card-text">Nº 1 de mi promoción (Nota: 8.43)</p>
+        </div>
+           
+      </div>
+  
+      <div class="card text-dark bg-light mb-3">
+        <div class="card-header"><b>EXPERIENCIA</b>
+          <img src="./assets/exp.png" class="card-img float-end" alt="Diploma" style="max-width: 40px;">
+        </div>
+        <div class="card-body">
+            <div class="row">
+              <div class="col-2">
+                  <img src="./assets/barra.png" class="card-img" alt="Diploma" style="max-width: 40px;">
+              </div>
+              <div class="col-10">
+                <ul class="list-unstyled">
+                      <li>8 años de <strong>Comercial Vodafone</strong> en Grupcom & Rolvas 5, Daimiel, C. Real y Puertollano (2011-2019)</li>
+                      <li>6 meses de <strong>Profesor</strong> de informática para la Federación Regional Gitana de CLM, Daimiel (2011)</li>
+                      <li>3 meses de prácticas como <strong>Desarrollador web</strong> en Indra Labs, Ciudad Real (2009)</li>
+                      <li>5 meses en <strong>Venta y reposición</strong> de electrónica y electrodomésticos en Eroski, C. Real (2008)</li>
+                      <li>3 meses de <strong>Técnico informático</strong> en Electrodatos Informática.  Daimiel (2008)</li>
+                      <li>7 meses de <strong>Técnico informático</strong> en Tienda Beep (2006-2007)</li>
+                      <li>3 meses de prácticas de <strong>Empleado de oficina.</strong> Daimiel TV (2005)</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+  
+      <div class="card text-dark bg-light mb-3">
+        <div class="card-body">
+            <div class="row">
+              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-center">
+                <a href="https://www.instagram.com/gonzalezmohinocarlos"><img src="./assets/instagram.png" class="card-img" style="max-width: 60px;" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/gonzalezmohinocarlos"><img src="./assets/linkedin.png" class="card-img" style="max-width: 60px;" alt="Linkedin"></a>
+                <a href="mailto:gonzalezmohinocarlos@gmail.com"><img src="./assets/gmail.png" class="card-img" style="max-width: 60px;" alt="Correo electrónico"></a>
+                <h6>gonzalezmohinocarlos</h6>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-center">
+                <img src="./assets/whatsapp.png" class="card-img" style="max-width: 60px;" alt="Whatsapp">              
+                <h6>615117039</h6>
+              </div>
+            </div>    
+        </div>
+      </div>
+  
+      
+
+    </div>  
+  
+  <!--DERECHA-->
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        
+      
+      <div class="card text-dark bg-light mb-3">
+        <div class="card-header"><b>FORMACIÓN NO REGLADA</b>
+          <img src="./assets/carpeta.png" class="card-img float-end" alt="B1" style="max-width: 40px;">
+        </div>
+        <div class="card-body" *ngFor="let curso of cursos">
+            <h5 class="card-text text-uppercase"><small>{{ curso.titulo}}</small></h5>
+            <p class="card-text ms-3">{{ curso.descripcion }}</p>
+        </div>  
+      </div>
+    
+      <div class="card text-dark bg-light mb-3">
+          <div class="card-header"><b>IDIOMAS</b>
+            <img src="./assets/bandera.png" class="card-img float-end" alt="Idiomas" style="max-width: 40px;">
+          </div>
+          <div class="card-body">
+              <h5 class="card-title">
+              <small>B1 DE INGLÉS</small>
+            </h5>
+            <p class="card-text ms-3">Proyecto Unidiomas (Junio 2011)</p>
+          </div>
+      </div> 
+  
+      <div class="card text-dark bg-light mb-3">
+          <div class="card-header"><b>PERMISOS</b>
+              <img src="./assets/coche.png" class="card-img float-end" alt="B1" style="max-width: 40px;">
+          </div>
+          <div class="card-body">
+              <h5 class="card-title">
+                  <small>B COCHE PROPIO (2000)</small>
+            </h5>
+            <p class="card-text">A2 (En Curso)</p>
+          </div>
+      </div>
+  
+      <div class="card text-dark bg-light mb-3">
+            <div class="card-header"><b>HABILIDADES SOCIALES</b></div>
+            <div class="card-body">
+                <img src="./assets/habilidades.png" class="card-img" alt="Habilidades Sociales">              
+            </div>
+      </div> 
+      
+      <div class="card text-dark bg-light mb-3">
+        <div class="card-header"><b>COMPETENCIAS DIGITALES</b></div>
+          <div class="card-body">
+            <div class="col-center mb-3">
+              <span *ngFor="let competencia of competencias1, let i = index">
+                <img src="./assets/competencias/{{competencia}}.png" class="card-img imagen-100" alt="{{competencia}}">
+              </span>
+              <span *ngFor="let competencia of competencias2, let i = index">
+                <img src="./assets/competencias/{{competencia}}.png" class="card-img imagen-100" alt="{{competencia}}">
+              </span>
+            </div>
+          </div>
+      </div>
+  
+      <div class="card text-dark bg-light mb-3">
+        <div class="card-header"><b>AFICIONES</b></div>
+        <div class="card-body">
+              <div class="col-center mb-3">
+                <img src="./assets/aficiones/teatro-color.png" style="max-height: 60px;">
+                <img src="./assets/aficiones/cat.png" style="max-height: 60px;">
+                <img src="./assets/aficiones/globo-color.png" style="max-height: 60px;">
+                <img src="./assets/aficiones/music.png" style="max-height: 60px;">
+                <img src="./assets/aficiones/pesa.png" style="max-height: 60px;">
+              </div>    
+        </div>
+      </div>
+  
+      <div class="card text-dark bg-light mb-3">
+        <div class="card-header"><b>OTROS DATOS</b></div>
+        <div class="card-body">
+          <ul>
+            <li>Ex-participante Lanzadera Conecta Empleo Puertollano (Junio 2020-21)</li>
+            <li>Voluntario asociación Arañazos, Puertollano (C. Real)</li>
+            <li>Carta de recomendación último trabajo (A petición)</li>
+          </ul>
+        </div>
+    </div> 
+
+
+      
+    </div>
+  
+  </div>
