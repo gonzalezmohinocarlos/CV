@@ -4,8 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { path: '',
   loadChildren:()=> import('./cv/cv.module').then (m=>m.CvModule) },
-  { path: '**',
-  redirectTo: '' }
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
