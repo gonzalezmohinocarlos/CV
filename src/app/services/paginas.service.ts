@@ -52,6 +52,12 @@ export class PaginasService {
       ];
     } else {
       return [
+        {titulo: "Certificado Profesional Gestión de Proyectos",
+        descripcion: "Google (2021)"},
+
+        {titulo: "Certificado Profesional Soporte de Tecnologías de la Información",
+        descripcion: "Google (2021)"},
+    
         {titulo: "Desarrollador web Full-stack",
         descripcion: "LinkedIn Learning (31h) (2021)"},
     
