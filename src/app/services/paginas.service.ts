@@ -24,34 +24,43 @@ export class PaginasService {
 
     if (pagina == "Docente"){
       return [
+        
+        {titulo: "Docencia de la Formación para el Empleo",
+        descripcion: "Modem Consultoría, Puertollano (380h) (2022)"},
+    
+        {titulo: "Acreditación Docente para Teleformación:Formador/a Online",
+        descripcion: "ASAJA, Puertollano (60h) (2022)"},
+    
         {titulo: "marketing digital, desarrollo páginas web, desarrollo apps móviles, cloud computing",
         descripcion: "Google Actívate (2020-2021)"},
         
         {titulo: "prevención de riesgos laborales",
         descripcion: "(Básico) (2009)"},
-    
-        {titulo: "Formador Ocupacional",
-        descripcion: "Laboriscity, C. Real (419h) (2007)"},
-    
+        
         {titulo: "Empleado de Oficina",
         descripcion: "AKD, Daimiel (799h) (2005-2006)"}
       ];
     } else if (pagina == "Ventas"){
       return [
+
+        {titulo: "Docencia de la Formación para el Empleo",
+        descripcion: "Modem Consultoría, Puertollano (380h) (2022)"},
+
         {titulo: "marketing digital",
         descripcion: "Google Actívate (40h) (2020-2021)"},
         
         {titulo: "prevención de riesgos laborales",
         descripcion: "(Básico) (2009)"},
-    
-        {titulo: "Formador Ocupacional",
-        descripcion: "Laboriscity, C. Real (419h) (2007)"},
-    
+        
         {titulo: "Empleado de Oficina",
         descripcion: "AKD, Daimiel (799h) (2005-2006)"}
       ];
-    } else {
+    } else { //Técnico
       return [
+        
+        {titulo: "Docencia de la Formación para el Empleo",
+        descripcion: "Modem Consultoría, Puertollano (380h) (2022)"},
+        
         {titulo: "Certificado Profesional Gestión de Proyectos",
         descripcion: "Google (2021)"},
 
